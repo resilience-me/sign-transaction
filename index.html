@@ -1,0 +1,29 @@
+<html>
+<head>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<link rel='stylesheet' type='text/css' href='./css/style.css'/>
+
+<script src="./js/ethereumjs-tx.js" type="text/javascript"></script>
+
+<script src="./js/broadcast.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+    
+    <div id="main">
+    
+<label for="privateKey">privateKey</label>
+<input name="privateKey" id="privateKey" type="text">
+<label for="rawTx">rawTx</label>
+<input name="rawTx" id="rawTx" type="text">
+<div><br><br>
+
+<button id="broadcast_button" onclick="broadcast();" title="broadcast">Broadcast</button>
+</div>
+</div>
+
+</body>
+</html>
